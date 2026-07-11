@@ -1,0 +1,600 @@
+[
+  {
+    "id": "all",
+    "name": "All Businesses",
+    "category": "General",
+    "icon": "🏢",
+    "googlePlaceType": "establishment",
+    "searchQuery": "local businesses shops services",
+    "painPoints": [
+      "Most customers search online before visiting",
+      "Losing potential clients to competitors with websites",
+      "No professional online presence",
+      "Missing out on Google Maps visibility",
+      "Can't showcase services and products online"
+    ],
+    "websiteFeatures": ["Contact Form", "About Us", "Service Area Map", "Customer Reviews", "Photo Gallery", "Services List"],
+    "monthlyLeadPotential": "Varies by business",
+    "avgProjectValue": "$150-$1000",
+    "colorTheme": { "primary": "#6366f1", "secondary": "#4f46e5", "accent": "#818cf8" }
+  },
+  {
+    "id": "plumbing",
+    "name": "Plumbing",
+    "category": "Home Services",
+    "icon": "🔧",
+    "googlePlaceType": "plumber",
+    "searchQuery": "plumber plumbing services",
+    "painPoints": [
+      "97% of customers search online before hiring a plumber",
+      "Losing emergency calls to competitors with websites",
+      "No way for customers to request quotes online",
+      "Missing out on Google Maps visibility",
+      "Can't showcase certifications and licenses online"
+    ],
+    "websiteFeatures": ["Online booking", "Emergency call button", "Service area map", "Customer reviews", "Before/after gallery", "Price estimator"],
+    "monthlyLeadPotential": "40-80 leads/month",
+    "avgProjectValue": "$150-$500",
+    "colorTheme": { "primary": "#1E88E5", "secondary": "#0D47A1", "accent": "#42A5F5" }
+  },
+  {
+    "id": "electrician",
+    "name": "Electrician",
+    "category": "Home Services",
+    "icon": "⚡",
+    "googlePlaceType": "electrician",
+    "searchQuery": "electrician electrical services",
+    "painPoints": [
+      "Customers need to verify licensing — a website builds trust",
+      "Emergency electrical work goes to whoever shows up first on Google",
+      "No portfolio of past work to show potential clients",
+      "Missing commercial contract opportunities"
+    ],
+    "websiteFeatures": ["24/7 emergency banner", "License verification display", "Service catalog", "Online quote request", "Safety tips blog"],
+    "monthlyLeadPotential": "30-60 leads/month",
+    "avgProjectValue": "$200-$800",
+    "colorTheme": { "primary": "#FFC107", "secondary": "#F57F17", "accent": "#FFD54F" }
+  },
+  {
+    "id": "hvac",
+    "name": "HVAC",
+    "category": "Home Services",
+    "icon": "❄️",
+    "googlePlaceType": "hvac_contractor",
+    "searchQuery": "hvac heating cooling air conditioning",
+    "painPoints": [
+      "Seasonal demand spikes — website captures leads year-round",
+      "Maintenance contracts need online scheduling",
+      "Energy efficiency ratings need to be showcased",
+      "Competitors with websites dominate local search"
+    ],
+    "websiteFeatures": ["Seasonal promotions banner", "Service scheduling", "Energy savings calculator", "Maintenance plan signup", "Brand certifications display"],
+    "monthlyLeadPotential": "35-70 leads/month",
+    "avgProjectValue": "$300-$2000",
+    "colorTheme": { "primary": "#00ACC1", "secondary": "#006064", "accent": "#4DD0E1" }
+  },
+  {
+    "id": "roofing",
+    "name": "Roofing",
+    "category": "Home Services",
+    "icon": "🏠",
+    "googlePlaceType": "roofing_contractor",
+    "searchQuery": "roofing contractor roof repair",
+    "painPoints": [
+      "Storm damage creates urgent demand — first found online wins",
+      "Insurance claim assistance needs to be communicated clearly",
+      "Before/after photos are the #1 sales tool",
+      "Commercial roofing contracts require professional web presence"
+    ],
+    "websiteFeatures": ["Storm damage assessment form", "Before/after gallery", "Roofing material comparison", "Free inspection booking", "Insurance claim help section"],
+    "monthlyLeadPotential": "25-50 leads/month",
+    "avgProjectValue": "$5000-$15000",
+    "colorTheme": { "primary": "#6D4C41", "secondary": "#3E2723", "accent": "#A1887F" }
+  },
+  {
+    "id": "painting",
+    "name": "Painting",
+    "category": "Home Services",
+    "icon": "🎨",
+    "googlePlaceType": "painter",
+    "searchQuery": "painting contractor house painter",
+    "painPoints": [
+      "Visual business needs a visual portfolio online",
+      "Color consultation requests come through websites",
+      "Commercial painting bids require professional presence",
+      "Seasonal campaigns need online promotion"
+    ],
+    "websiteFeatures": ["Color portfolio gallery", "Virtual color picker", "Free estimate form", "Commercial vs residential sections", "Testimonials with photos"],
+    "monthlyLeadPotential": "20-45 leads/month",
+    "avgProjectValue": "$500-$3000",
+    "colorTheme": { "primary": "#7B1FA2", "secondary": "#4A148C", "accent": "#CE93D8" }
+  },
+  {
+    "id": "landscaping",
+    "name": "Landscaping",
+    "category": "Home Services",
+    "icon": "🌿",
+    "googlePlaceType": "landscaper",
+    "searchQuery": "landscaping lawn care garden services",
+    "painPoints": [
+      "Visual transformations need a gallery to attract clients",
+      "Recurring maintenance contracts need easy signup",
+      "Seasonal services change — website keeps customers informed",
+      "Commercial property managers search online for contractors"
+    ],
+    "websiteFeatures": ["Project gallery with seasons", "Maintenance plan pricing", "Service area map", "Seasonal tips blog", "Design consultation booking"],
+    "monthlyLeadPotential": "30-55 leads/month",
+    "avgProjectValue": "$200-$5000",
+    "colorTheme": { "primary": "#2E7D32", "secondary": "#1B5E20", "accent": "#66BB6A" }
+  },
+  {
+    "id": "pest_control",
+    "name": "Pest Control",
+    "category": "Home Services",
+    "icon": "🐛",
+    "googlePlaceType": "pest_control",
+    "searchQuery": "pest control exterminator",
+    "painPoints": [
+      "Pest emergencies need instant online contact options",
+      "Customers research safety of chemicals used — website educates",
+      "Subscription plans need online management",
+      "Health department compliance needs to be displayed"
+    ],
+    "websiteFeatures": ["Emergency pest ID tool", "Treatment plans overview", "Subscription management", "Safety certifications", "Pest identification guide"],
+    "monthlyLeadPotential": "35-65 leads/month",
+    "avgProjectValue": "$150-$400",
+    "colorTheme": { "primary": "#EF6C00", "secondary": "#E65100", "accent": "#FFB74D" }
+  },
+  {
+    "id": "cleaning",
+    "name": "Cleaning Service",
+    "category": "Home Services",
+    "icon": "🧹",
+    "googlePlaceType": "cleaning_service",
+    "searchQuery": "cleaning service house cleaning maid",
+    "painPoints": [
+      "Trust is everything — reviews and photos build credibility",
+      "Online booking saves hours of phone calls",
+      "Recurring cleaning schedules need easy management",
+      "Commercial cleaning contracts need professional proposals"
+    ],
+    "websiteFeatures": ["Instant quote calculator", "Online booking system", "Service packages display", "Trust badges and insurance info", "Recurring schedule setup"],
+    "monthlyLeadPotential": "40-80 leads/month",
+    "avgProjectValue": "$100-$300",
+    "colorTheme": { "primary": "#00897B", "secondary": "#004D40", "accent": "#4DB6AC" }
+  },
+  {
+    "id": "restaurant",
+    "name": "Restaurant",
+    "category": "Food & Hospitality",
+    "icon": "🍽️",
+    "googlePlaceType": "restaurant",
+    "searchQuery": "restaurant dining food",
+    "painPoints": [
+      "60% of diners check menus online before visiting",
+      "No online reservation system means lost covers",
+      "Food delivery platforms take 30% commission — own website keeps profits",
+      "Events and catering inquiries come through websites",
+      "Instagram-worthy food needs a proper gallery"
+    ],
+    "websiteFeatures": ["Digital menu with photos", "Online reservation", "Delivery/takeout ordering", "Events & catering page", "Photo gallery", "Google Maps integration"],
+    "monthlyLeadPotential": "100-300 visitors/month",
+    "avgProjectValue": "$20-$50 per cover",
+    "colorTheme": { "primary": "#D32F2F", "secondary": "#B71C1C", "accent": "#FF5252" }
+  },
+  {
+    "id": "cafe",
+    "name": "Café / Coffee Shop",
+    "category": "Food & Hospitality",
+    "icon": "☕",
+    "googlePlaceType": "cafe",
+    "searchQuery": "cafe coffee shop",
+    "painPoints": [
+      "Coffee lovers search for ambiance and menu before visiting",
+      "Loyalty programs need a digital platform",
+      "Remote workers look for WiFi and workspace info online",
+      "Specialty coffee needs storytelling — origin, roast profiles"
+    ],
+    "websiteFeatures": ["Menu with pricing", "Ambiance gallery", "Loyalty program signup", "WiFi & workspace info", "Coffee origin stories", "Events calendar"],
+    "monthlyLeadPotential": "80-200 visitors/month",
+    "avgProjectValue": "$5-$15 per visit",
+    "colorTheme": { "primary": "#795548", "secondary": "#4E342E", "accent": "#BCAAA4" }
+  },
+  {
+    "id": "bakery",
+    "name": "Bakery",
+    "category": "Food & Hospitality",
+    "icon": "🍰",
+    "googlePlaceType": "bakery",
+    "searchQuery": "bakery pastry shop",
+    "painPoints": [
+      "Custom cake orders need an online request form",
+      "Wedding and event orders come through web searches",
+      "Daily specials need a platform to announce",
+      "Visual products need high-quality photo galleries"
+    ],
+    "websiteFeatures": ["Custom order form", "Product gallery", "Daily specials board", "Wedding/event packages", "Allergen information", "Pickup scheduling"],
+    "monthlyLeadPotential": "50-150 visitors/month",
+    "avgProjectValue": "$10-$100 per order",
+    "colorTheme": { "primary": "#F48FB1", "secondary": "#C2185B", "accent": "#F8BBD0" }
+  },
+  {
+    "id": "catering",
+    "name": "Catering",
+    "category": "Food & Hospitality",
+    "icon": "🥘",
+    "googlePlaceType": "caterer",
+    "searchQuery": "catering service event catering",
+    "painPoints": [
+      "Event planners research caterers online exclusively",
+      "Menu packages need clear online presentation",
+      "Testimonials from past events are crucial for booking",
+      "Large corporate contracts require professional web presence"
+    ],
+    "websiteFeatures": ["Menu packages with pricing", "Event gallery", "Request quote form", "Dietary options filter", "Corporate catering section", "Testimonials"],
+    "monthlyLeadPotential": "20-40 leads/month",
+    "avgProjectValue": "$500-$5000",
+    "colorTheme": { "primary": "#FF7043", "secondary": "#BF360C", "accent": "#FFAB91" }
+  },
+  {
+    "id": "dental",
+    "name": "Dental Clinic",
+    "category": "Health & Wellness",
+    "icon": "🦷",
+    "googlePlaceType": "dentist",
+    "searchQuery": "dentist dental clinic",
+    "painPoints": [
+      "Patients research dentists extensively before first visit",
+      "Online appointment booking reduces no-shows by 30%",
+      "Insurance information needs to be clearly displayed",
+      "Before/after smile galleries are the strongest conversion tool",
+      "Emergency dental care searches happen 24/7"
+    ],
+    "websiteFeatures": ["Online appointment booking", "Insurance accepted list", "Smile gallery", "Treatment descriptions", "Patient portal", "Emergency contact"],
+    "monthlyLeadPotential": "50-100 patients/month",
+    "avgProjectValue": "$200-$2000",
+    "colorTheme": { "primary": "#26C6DA", "secondary": "#00838F", "accent": "#80DEEA" }
+  },
+  {
+    "id": "gym",
+    "name": "Gym / Fitness Center",
+    "category": "Health & Wellness",
+    "icon": "💪",
+    "googlePlaceType": "gym",
+    "searchQuery": "gym fitness center workout",
+    "painPoints": [
+      "Membership signups increasingly happen online",
+      "Class schedules need real-time online access",
+      "Virtual training and hybrid models need a platform",
+      "Competitor gyms with websites appear more professional"
+    ],
+    "websiteFeatures": ["Membership plans with pricing", "Class schedule calendar", "Virtual tour", "Trainer profiles", "Free trial signup", "Transformation gallery"],
+    "monthlyLeadPotential": "40-100 signups/month",
+    "avgProjectValue": "$30-$100/month membership",
+    "colorTheme": { "primary": "#FF5722", "secondary": "#BF360C", "accent": "#FF8A65" }
+  },
+  {
+    "id": "salon",
+    "name": "Hair Salon / Barbershop",
+    "category": "Health & Wellness",
+    "icon": "💇",
+    "googlePlaceType": "hair_salon",
+    "searchQuery": "hair salon barbershop",
+    "painPoints": [
+      "Online booking is expected by 70% of salon customers",
+      "Style portfolios drive walk-in traffic",
+      "Product sales and loyalty programs need digital presence",
+      "New customer acquisition costs 5x more without a website"
+    ],
+    "websiteFeatures": ["Online booking with stylist selection", "Style gallery/portfolio", "Service menu with pricing", "Stylist profiles", "Product store", "Loyalty program"],
+    "monthlyLeadPotential": "60-120 bookings/month",
+    "avgProjectValue": "$30-$150 per visit",
+    "colorTheme": { "primary": "#AB47BC", "secondary": "#6A1B9A", "accent": "#CE93D8" }
+  },
+  {
+    "id": "spa",
+    "name": "Spa & Wellness",
+    "category": "Health & Wellness",
+    "icon": "🧖",
+    "googlePlaceType": "spa",
+    "searchQuery": "spa wellness massage",
+    "painPoints": [
+      "Luxury experience starts with the website — first impression matters",
+      "Package deals and gift cards need online sales",
+      "Couples and group bookings come through web searches",
+      "Seasonal promotions need a digital platform"
+    ],
+    "websiteFeatures": ["Treatment menu", "Online booking", "Gift card purchase", "Ambiance gallery", "Package deals", "Wellness blog"],
+    "monthlyLeadPotential": "30-70 bookings/month",
+    "avgProjectValue": "$80-$300 per visit",
+    "colorTheme": { "primary": "#8D6E63", "secondary": "#4E342E", "accent": "#D7CCC8" }
+  },
+  {
+    "id": "yoga",
+    "name": "Yoga Studio",
+    "category": "Health & Wellness",
+    "icon": "🧘",
+    "googlePlaceType": "yoga_studio",
+    "searchQuery": "yoga studio classes",
+    "painPoints": [
+      "Class schedules and workshop signups need online access",
+      "Online/hybrid classes became essential post-COVID",
+      "Teacher training programs need dedicated pages",
+      "Community building happens through content and blogs"
+    ],
+    "websiteFeatures": ["Class schedule", "Online booking", "Virtual class access", "Teacher profiles", "Workshop registration", "Blog/resources"],
+    "monthlyLeadPotential": "25-60 signups/month",
+    "avgProjectValue": "$15-$30 per class",
+    "colorTheme": { "primary": "#66BB6A", "secondary": "#2E7D32", "accent": "#A5D6A7" }
+  },
+  {
+    "id": "veterinary",
+    "name": "Veterinary Clinic",
+    "category": "Health & Wellness",
+    "icon": "🐾",
+    "googlePlaceType": "veterinary_care",
+    "searchQuery": "veterinarian vet clinic animal hospital",
+    "painPoints": [
+      "Pet owners search frantically during emergencies — be found first",
+      "Vaccination schedules and reminders need digital management",
+      "Pet owners research vets thoroughly before first visit",
+      "Prescription refills and appointment booking go online"
+    ],
+    "websiteFeatures": ["Emergency contact prominent", "Online appointment booking", "Pet health resources", "Vaccination tracker", "Service descriptions", "Staff profiles"],
+    "monthlyLeadPotential": "40-80 patients/month",
+    "avgProjectValue": "$100-$500",
+    "colorTheme": { "primary": "#43A047", "secondary": "#1B5E20", "accent": "#81C784" }
+  },
+  {
+    "id": "law_firm",
+    "name": "Law Firm",
+    "category": "Professional Services",
+    "icon": "⚖️",
+    "googlePlaceType": "lawyer",
+    "searchQuery": "lawyer law firm attorney",
+    "painPoints": [
+      "83% of legal consumers visit a firm's website before calling",
+      "Practice area pages rank for high-value keywords",
+      "Client testimonials and case results build trust",
+      "Free consultation offers convert 3x more through websites"
+    ],
+    "websiteFeatures": ["Practice area pages", "Attorney profiles", "Free consultation form", "Case results/testimonials", "Legal blog", "Client portal"],
+    "monthlyLeadPotential": "20-50 leads/month",
+    "avgProjectValue": "$1000-$10000",
+    "colorTheme": { "primary": "#37474F", "secondary": "#263238", "accent": "#78909C" }
+  },
+  {
+    "id": "accounting",
+    "name": "Accounting Firm",
+    "category": "Professional Services",
+    "icon": "📊",
+    "googlePlaceType": "accounting",
+    "searchQuery": "accountant accounting firm CPA",
+    "painPoints": [
+      "Tax season creates massive search volume — be visible",
+      "Service packages need clear pricing online",
+      "Document upload portals save time for both parties",
+      "Small business owners search for accountants online first"
+    ],
+    "websiteFeatures": ["Service packages with pricing", "Tax deadline calendar", "Document upload portal", "Client testimonials", "Industry specialization pages", "Free consultation booking"],
+    "monthlyLeadPotential": "15-40 leads/month",
+    "avgProjectValue": "$200-$2000/month",
+    "colorTheme": { "primary": "#5C6BC0", "secondary": "#283593", "accent": "#9FA8DA" }
+  },
+  {
+    "id": "real_estate",
+    "name": "Real Estate Agency",
+    "category": "Professional Services",
+    "icon": "🏡",
+    "googlePlaceType": "real_estate_agency",
+    "searchQuery": "real estate agent property",
+    "painPoints": [
+      "Property listings need a professional online platform",
+      "Virtual tours became essential — website hosts them",
+      "Agent profiles build personal brand and trust",
+      "Market reports and neighborhood guides drive organic traffic"
+    ],
+    "websiteFeatures": ["Property listings with search", "Virtual tour embeds", "Agent profiles", "Mortgage calculator", "Market reports", "Contact forms per listing"],
+    "monthlyLeadPotential": "30-60 leads/month",
+    "avgProjectValue": "$3000-$30000 commission",
+    "colorTheme": { "primary": "#00796B", "secondary": "#004D40", "accent": "#4DB6AC" }
+  },
+  {
+    "id": "insurance",
+    "name": "Insurance Agency",
+    "category": "Professional Services",
+    "icon": "🛡️",
+    "googlePlaceType": "insurance_agency",
+    "searchQuery": "insurance agency broker",
+    "painPoints": [
+      "Consumers compare insurance online — be in the comparison",
+      "Quote request forms generate warm leads 24/7",
+      "Policy explanations build trust and reduce support calls",
+      "Reviews and ratings are critical for insurance trust"
+    ],
+    "websiteFeatures": ["Quote request form", "Policy comparison tool", "Coverage explanations", "Claims process guide", "Agent profiles", "Client testimonials"],
+    "monthlyLeadPotential": "25-50 leads/month",
+    "avgProjectValue": "$500-$5000/year premiums",
+    "colorTheme": { "primary": "#1565C0", "secondary": "#0D47A1", "accent": "#64B5F6" }
+  },
+  {
+    "id": "tutoring",
+    "name": "Tutoring / Education",
+    "category": "Professional Services",
+    "icon": "📚",
+    "googlePlaceType": "tutoring_service",
+    "searchQuery": "tutor tutoring education learning center",
+    "painPoints": [
+      "Parents search extensively before choosing a tutor",
+      "Online scheduling is essential for busy families",
+      "Subject expertise and qualifications need showcasing",
+      "Student success stories drive referrals"
+    ],
+    "websiteFeatures": ["Subject offerings", "Tutor profiles with qualifications", "Online booking", "Pricing packages", "Student success stories", "Free assessment form"],
+    "monthlyLeadPotential": "20-50 students/month",
+    "avgProjectValue": "$30-$80/hour",
+    "colorTheme": { "primary": "#F57C00", "secondary": "#E65100", "accent": "#FFB74D" }
+  },
+  {
+    "id": "auto_repair",
+    "name": "Auto Repair Shop",
+    "category": "Retail & Auto",
+    "icon": "🔩",
+    "googlePlaceType": "car_repair",
+    "searchQuery": "auto repair mechanic car service",
+    "painPoints": [
+      "Car trouble is urgent — first result on Google gets the call",
+      "Transparent pricing builds trust with car owners",
+      "Service history and maintenance reminders retain customers",
+      "ASE certifications and warranties need visibility"
+    ],
+    "websiteFeatures": ["Service menu with pricing", "Online appointment booking", "Certification display", "Customer reviews", "Maintenance tips blog", "Loaner car info"],
+    "monthlyLeadPotential": "40-80 customers/month",
+    "avgProjectValue": "$150-$1000",
+    "colorTheme": { "primary": "#455A64", "secondary": "#263238", "accent": "#90A4AE" }
+  },
+  {
+    "id": "car_wash",
+    "name": "Car Wash",
+    "category": "Retail & Auto",
+    "icon": "🚗",
+    "googlePlaceType": "car_wash",
+    "searchQuery": "car wash auto detailing",
+    "painPoints": [
+      "Membership and subscription models need online signup",
+      "Before/after detailing photos drive premium service sales",
+      "Gift cards and packages sell well online",
+      "Location-based searches dominate this industry"
+    ],
+    "websiteFeatures": ["Service packages with pricing", "Membership/subscription signup", "Before/after gallery", "Gift card purchase", "Location map", "Online booking"],
+    "monthlyLeadPotential": "50-150 customers/month",
+    "avgProjectValue": "$20-$200",
+    "colorTheme": { "primary": "#039BE5", "secondary": "#01579B", "accent": "#4FC3F7" }
+  },
+  {
+    "id": "florist",
+    "name": "Florist",
+    "category": "Retail & Auto",
+    "icon": "💐",
+    "googlePlaceType": "florist",
+    "searchQuery": "florist flower shop",
+    "painPoints": [
+      "Online flower ordering is a massive market ($8.5B+)",
+      "Same-day delivery orders come through websites",
+      "Wedding and event floral design needs a portfolio",
+      "Seasonal arrangements need timely promotion"
+    ],
+    "websiteFeatures": ["Online ordering with delivery", "Arrangement gallery", "Wedding/event portfolio", "Seasonal collections", "Subscription service", "Same-day delivery info"],
+    "monthlyLeadPotential": "30-80 orders/month",
+    "avgProjectValue": "$40-$300",
+    "colorTheme": { "primary": "#E91E63", "secondary": "#880E4F", "accent": "#F48FB1" }
+  },
+  {
+    "id": "pet_store",
+    "name": "Pet Store",
+    "category": "Retail & Auto",
+    "icon": "🐕",
+    "googlePlaceType": "pet_store",
+    "searchQuery": "pet store pet shop",
+    "painPoints": [
+      "E-commerce for pet supplies is booming",
+      "Grooming and training services need online booking",
+      "Pet adoption events need promotion",
+      "Loyalty programs retain pet owners long-term"
+    ],
+    "websiteFeatures": ["Online store", "Grooming booking", "Pet adoption section", "Loyalty program", "Pet care guides", "New arrivals showcase"],
+    "monthlyLeadPotential": "40-100 customers/month",
+    "avgProjectValue": "$20-$100",
+    "colorTheme": { "primary": "#8BC34A", "secondary": "#33691E", "accent": "#AED581" }
+  },
+  {
+    "id": "laundry",
+    "name": "Laundry / Dry Cleaning",
+    "category": "Retail & Auto",
+    "icon": "👔",
+    "googlePlaceType": "laundry",
+    "searchQuery": "laundry dry cleaning service",
+    "painPoints": [
+      "Pickup and delivery services need online scheduling",
+      "Pricing transparency drives customer choice",
+      "Recurring customers need easy reorder options",
+      "Business accounts for hotels/restaurants come through web searches"
+    ],
+    "websiteFeatures": ["Service pricing list", "Pickup/delivery scheduling", "Business account section", "Garment care tips", "Loyalty rewards", "Online order tracking"],
+    "monthlyLeadPotential": "30-70 customers/month",
+    "avgProjectValue": "$15-$50",
+    "colorTheme": { "primary": "#7986CB", "secondary": "#283593", "accent": "#C5CAE9" }
+  },
+  {
+    "id": "contractor",
+    "name": "General Contractor",
+    "category": "Construction",
+    "icon": "🏗️",
+    "googlePlaceType": "general_contractor",
+    "searchQuery": "general contractor construction",
+    "painPoints": [
+      "High-value projects require trust — portfolio website is essential",
+      "License and insurance verification needs to be front and center",
+      "Project timelines and communication happen through client portals",
+      "Commercial contracts require professional digital presence"
+    ],
+    "websiteFeatures": ["Project portfolio with photos", "License & insurance display", "Request for quote form", "Services overview", "Client testimonials", "Project timeline tool"],
+    "monthlyLeadPotential": "15-30 leads/month",
+    "avgProjectValue": "$10000-$100000+",
+    "colorTheme": { "primary": "#FF6F00", "secondary": "#E65100", "accent": "#FFB300" }
+  },
+  {
+    "id": "interior_design",
+    "name": "Interior Design",
+    "category": "Construction",
+    "icon": "🛋️",
+    "googlePlaceType": "interior_designer",
+    "searchQuery": "interior designer home design",
+    "painPoints": [
+      "Portfolio is everything — a website IS your showroom",
+      "Design process needs clear online explanation",
+      "Virtual consultations and mood boards need a platform",
+      "High-end clients expect a polished digital presence"
+    ],
+    "websiteFeatures": ["Portfolio gallery with room types", "Design process explanation", "Virtual consultation booking", "Style quiz", "Before/after transformations", "Press features"],
+    "monthlyLeadPotential": "10-25 leads/month",
+    "avgProjectValue": "$2000-$50000",
+    "colorTheme": { "primary": "#8D6E63", "secondary": "#3E2723", "accent": "#D7CCC8" }
+  },
+  {
+    "id": "photography",
+    "name": "Photography Studio",
+    "category": "Creative Services",
+    "icon": "📸",
+    "googlePlaceType": "photographer",
+    "searchQuery": "photographer photography studio",
+    "painPoints": [
+      "A photographer without a portfolio website has zero credibility",
+      "Wedding and event bookings happen 6-12 months in advance online",
+      "Print and digital product sales need e-commerce",
+      "SEO-optimized galleries rank for '[city] photographer'"
+    ],
+    "websiteFeatures": ["Portfolio galleries by category", "Pricing packages", "Booking calendar", "Client gallery access", "Print store", "Behind-the-scenes blog"],
+    "monthlyLeadPotential": "15-35 bookings/month",
+    "avgProjectValue": "$200-$5000",
+    "colorTheme": { "primary": "#424242", "secondary": "#212121", "accent": "#BDBDBD" }
+  },
+  {
+    "id": "physiotherapy",
+    "name": "Physiotherapy Clinic",
+    "category": "Health & Wellness",
+    "icon": "🏃",
+    "googlePlaceType": "physiotherapist",
+    "searchQuery": "physiotherapy physical therapy clinic",
+    "painPoints": [
+      "Patients research treatment options extensively online",
+      "Doctor referrals now happen digitally — need web presence",
+      "Exercise videos and resources build patient trust",
+      "Insurance and billing info needs clear online access"
+    ],
+    "websiteFeatures": ["Treatment descriptions", "Online appointment booking", "Therapist profiles", "Exercise resource library", "Insurance info", "Patient testimonials"],
+    "monthlyLeadPotential": "25-50 patients/month",
+    "avgProjectValue": "$100-$300 per session",
+    "colorTheme": { "primary": "#26A69A", "secondary": "#00695C", "accent": "#80CBC4" }
+  }
+]

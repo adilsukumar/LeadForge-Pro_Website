@@ -1,0 +1,1360 @@
+[
+  {
+    "id": "us",
+    "name": "United States",
+    "code": "US",
+    "region": "North America",
+    "gdpPerCapita": 76330,
+    "internetPenetration": 92,
+    "englishProficiency": 100,
+    "digitalAdoption": 95,
+    "smbWithoutWebsite": 28,
+    "avgWebsiteCostLocal": {
+      "min": 3000,
+      "max": 10000,
+      "currency": "USD"
+    },
+    "ourPricing": {
+      "basic": 1799,
+      "standard": 3899,
+      "premium": 5999,
+      "currency": "USD"
+    },
+    "languages": [
+      {
+        "name": "English",
+        "code": "en"
+      }
+    ],
+    "timezone": "America/New_York",
+    "callingCode": "+1",
+    "salesTip": "Americans value speed and ROI. Lead with numbers — how many leads they're losing."
+  },
+  {
+    "id": "ca",
+    "name": "Canada",
+    "code": "CA",
+    "region": "North America",
+    "gdpPerCapita": 52722,
+    "internetPenetration": 93,
+    "englishProficiency": 95,
+    "digitalAdoption": 93,
+    "smbWithoutWebsite": 30,
+    "avgWebsiteCostLocal": {
+      "min": 2500,
+      "max": 8000,
+      "currency": "CAD"
+    },
+    "ourPricing": {
+      "basic": 1499,
+      "standard": 3149,
+      "premium": 4799,
+      "currency": "CAD"
+    },
+    "languages": [
+      {
+        "name": "English",
+        "code": "en"
+      },
+      {
+        "name": "French",
+        "code": "fr"
+      }
+    ],
+    "timezone": "America/Toronto",
+    "callingCode": "+1",
+    "salesTip": "Canadians appreciate politeness and thoroughness. Emphasize bilingual capability (English/French)."
+  },
+  {
+    "id": "mx",
+    "name": "Mexico",
+    "code": "MX",
+    "region": "North America",
+    "gdpPerCapita": 10948,
+    "internetPenetration": 76,
+    "englishProficiency": 35,
+    "digitalAdoption": 65,
+    "smbWithoutWebsite": 65,
+    "avgWebsiteCostLocal": {
+      "min": 800,
+      "max": 3000,
+      "currency": "USD"
+    },
+    "ourPricing": {
+      "basic": 499,
+      "standard": 1149,
+      "premium": 1799,
+      "currency": "USD"
+    },
+    "languages": [
+      {
+        "name": "Spanish",
+        "code": "es"
+      }
+    ],
+    "timezone": "America/Mexico_City",
+    "callingCode": "+52",
+    "salesTip": "Huge untapped market. Many businesses rely only on Facebook. Pitch website + social media integration."
+  },
+  {
+    "id": "gb",
+    "name": "United Kingdom",
+    "code": "GB",
+    "region": "Europe",
+    "gdpPerCapita": 46125,
+    "internetPenetration": 95,
+    "englishProficiency": 100,
+    "digitalAdoption": 94,
+    "smbWithoutWebsite": 25,
+    "avgWebsiteCostLocal": {
+      "min": 2000,
+      "max": 8000,
+      "currency": "GBP"
+    },
+    "ourPricing": {
+      "basic": 1199,
+      "standard": 2999,
+      "premium": 4799,
+      "currency": "GBP"
+    },
+    "languages": [
+      {
+        "name": "English",
+        "code": "en"
+      }
+    ],
+    "timezone": "Europe/London",
+    "callingCode": "+44",
+    "salesTip": "Post-Brexit digital push. Emphasize GDPR compliance and cookie consent. UK businesses appreciate professionalism."
+  },
+  {
+    "id": "de",
+    "name": "Germany",
+    "code": "DE",
+    "region": "Europe",
+    "gdpPerCapita": 51204,
+    "internetPenetration": 93,
+    "englishProficiency": 62,
+    "digitalAdoption": 88,
+    "smbWithoutWebsite": 35,
+    "avgWebsiteCostLocal": {
+      "min": 3000,
+      "max": 12000,
+      "currency": "EUR"
+    },
+    "ourPricing": {
+      "basic": 1799,
+      "standard": 4499,
+      "premium": 7199,
+      "currency": "EUR"
+    },
+    "languages": [
+      {
+        "name": "German",
+        "code": "de"
+      }
+    ],
+    "timezone": "Europe/Berlin",
+    "callingCode": "+49",
+    "salesTip": "Germans value precision and quality. Emphasize data privacy (DSGVO/GDPR). Many small Handwerker lack websites."
+  },
+  {
+    "id": "fr",
+    "name": "France",
+    "code": "FR",
+    "region": "Europe",
+    "gdpPerCapita": 43518,
+    "internetPenetration": 92,
+    "englishProficiency": 40,
+    "digitalAdoption": 85,
+    "smbWithoutWebsite": 38,
+    "avgWebsiteCostLocal": {
+      "min": 2500,
+      "max": 10000,
+      "currency": "EUR"
+    },
+    "ourPricing": {
+      "basic": 1499,
+      "standard": 3749,
+      "premium": 5999,
+      "currency": "EUR"
+    },
+    "languages": [
+      {
+        "name": "French",
+        "code": "fr"
+      }
+    ],
+    "timezone": "Europe/Paris",
+    "callingCode": "+33",
+    "salesTip": "French businesses prefer communication in French. Offer website in French. Many artisans and restaurants lack web presence."
+  },
+  {
+    "id": "es",
+    "name": "Spain",
+    "code": "ES",
+    "region": "Europe",
+    "gdpPerCapita": 30116,
+    "internetPenetration": 93,
+    "englishProficiency": 35,
+    "digitalAdoption": 82,
+    "smbWithoutWebsite": 42,
+    "avgWebsiteCostLocal": {
+      "min": 1500,
+      "max": 6000,
+      "currency": "EUR"
+    },
+    "ourPricing": {
+      "basic": 899,
+      "standard": 2249,
+      "premium": 3599,
+      "currency": "EUR"
+    },
+    "languages": [
+      {
+        "name": "Spanish",
+        "code": "es"
+      }
+    ],
+    "timezone": "Europe/Madrid",
+    "callingCode": "+34",
+    "salesTip": "Tourism-driven economy. Restaurants and hospitality businesses desperately need websites. Pitch multilingual sites."
+  },
+  {
+    "id": "it",
+    "name": "Italy",
+    "code": "IT",
+    "region": "Europe",
+    "gdpPerCapita": 34085,
+    "internetPenetration": 87,
+    "englishProficiency": 30,
+    "digitalAdoption": 75,
+    "smbWithoutWebsite": 48,
+    "avgWebsiteCostLocal": {
+      "min": 2000,
+      "max": 8000,
+      "currency": "EUR"
+    },
+    "ourPricing": {
+      "basic": 1199,
+      "standard": 2999,
+      "premium": 4799,
+      "currency": "EUR"
+    },
+    "languages": [
+      {
+        "name": "Italian",
+        "code": "it"
+      }
+    ],
+    "timezone": "Europe/Rome",
+    "callingCode": "+39",
+    "salesTip": "Massive opportunity — nearly half of Italian SMBs lack websites. Food, fashion, and tourism sectors are prime targets."
+  },
+  {
+    "id": "nl",
+    "name": "Netherlands",
+    "code": "NL",
+    "region": "Europe",
+    "gdpPerCapita": 57768,
+    "internetPenetration": 96,
+    "englishProficiency": 90,
+    "digitalAdoption": 96,
+    "smbWithoutWebsite": 20,
+    "avgWebsiteCostLocal": {
+      "min": 2500,
+      "max": 8000,
+      "currency": "EUR"
+    },
+    "ourPricing": {
+      "basic": 1499,
+      "standard": 3149,
+      "premium": 4799,
+      "currency": "EUR"
+    },
+    "languages": [
+      {
+        "name": "Dutch",
+        "code": "nl"
+      },
+      {
+        "name": "English",
+        "code": "en"
+      }
+    ],
+    "timezone": "Europe/Amsterdam",
+    "callingCode": "+31",
+    "salesTip": "High digital adoption, but many small businesses still rely on social media only. English widely spoken — easy to sell."
+  },
+  {
+    "id": "be",
+    "name": "Belgium",
+    "code": "BE",
+    "region": "Europe",
+    "gdpPerCapita": 51247,
+    "internetPenetration": 92,
+    "englishProficiency": 60,
+    "digitalAdoption": 85,
+    "smbWithoutWebsite": 35,
+    "avgWebsiteCostLocal": {
+      "min": 2000,
+      "max": 7000,
+      "currency": "EUR"
+    },
+    "ourPricing": {
+      "basic": 1199,
+      "standard": 2699,
+      "premium": 4199,
+      "currency": "EUR"
+    },
+    "languages": [
+      {
+        "name": "Dutch",
+        "code": "nl"
+      },
+      {
+        "name": "French",
+        "code": "fr"
+      }
+    ],
+    "timezone": "Europe/Brussels",
+    "callingCode": "+32",
+    "salesTip": "Trilingual country. Offering websites in Dutch/French/German is a strong differentiator."
+  },
+  {
+    "id": "se",
+    "name": "Sweden",
+    "code": "SE",
+    "region": "Europe",
+    "gdpPerCapita": 55689,
+    "internetPenetration": 97,
+    "englishProficiency": 90,
+    "digitalAdoption": 96,
+    "smbWithoutWebsite": 18,
+    "avgWebsiteCostLocal": {
+      "min": 3000,
+      "max": 10000,
+      "currency": "SEK"
+    },
+    "ourPricing": {
+      "basic": 1799,
+      "standard": 3899,
+      "premium": 5999,
+      "currency": "SEK"
+    },
+    "languages": [
+      {
+        "name": "Swedish",
+        "code": "sv"
+      }
+    ],
+    "timezone": "Europe/Stockholm",
+    "callingCode": "+46",
+    "salesTip": "High-tech population, high expectations. Quality over price. Emphasize modern design and performance."
+  },
+  {
+    "id": "no",
+    "name": "Norway",
+    "code": "NO",
+    "region": "Europe",
+    "gdpPerCapita": 82832,
+    "internetPenetration": 98,
+    "englishProficiency": 92,
+    "digitalAdoption": 97,
+    "smbWithoutWebsite": 15,
+    "avgWebsiteCostLocal": {
+      "min": 4000,
+      "max": 15000,
+      "currency": "NOK"
+    },
+    "ourPricing": {
+      "basic": 2399,
+      "standard": 5699,
+      "premium": 8999,
+      "currency": "NOK"
+    },
+    "languages": [
+      {
+        "name": "Norwegian",
+        "code": "no"
+      }
+    ],
+    "timezone": "Europe/Oslo",
+    "callingCode": "+47",
+    "salesTip": "Highest GDP — businesses can afford quality. Local devs are extremely expensive. Your pricing is 80% cheaper."
+  },
+  {
+    "id": "dk",
+    "name": "Denmark",
+    "code": "DK",
+    "region": "Europe",
+    "gdpPerCapita": 67790,
+    "internetPenetration": 98,
+    "englishProficiency": 90,
+    "digitalAdoption": 97,
+    "smbWithoutWebsite": 16,
+    "avgWebsiteCostLocal": {
+      "min": 3500,
+      "max": 12000,
+      "currency": "DKK"
+    },
+    "ourPricing": {
+      "basic": 2099,
+      "standard": 4649,
+      "premium": 7199,
+      "currency": "DKK"
+    },
+    "languages": [
+      {
+        "name": "Danish",
+        "code": "da"
+      }
+    ],
+    "timezone": "Europe/Copenhagen",
+    "callingCode": "+45",
+    "salesTip": "Danes appreciate minimalist, clean design. Emphasize Scandinavian-inspired aesthetics."
+  },
+  {
+    "id": "fi",
+    "name": "Finland",
+    "code": "FI",
+    "region": "Europe",
+    "gdpPerCapita": 53654,
+    "internetPenetration": 96,
+    "englishProficiency": 85,
+    "digitalAdoption": 95,
+    "smbWithoutWebsite": 20,
+    "avgWebsiteCostLocal": {
+      "min": 3000,
+      "max": 10000,
+      "currency": "EUR"
+    },
+    "ourPricing": {
+      "basic": 1799,
+      "standard": 3899,
+      "premium": 5999,
+      "currency": "EUR"
+    },
+    "languages": [
+      {
+        "name": "Finnish",
+        "code": "fi"
+      }
+    ],
+    "timezone": "Europe/Helsinki",
+    "callingCode": "+358",
+    "salesTip": "Tech-savvy population. Emphasize performance, accessibility, and clean code."
+  },
+  {
+    "id": "ch",
+    "name": "Switzerland",
+    "code": "CH",
+    "region": "Europe",
+    "gdpPerCapita": 93457,
+    "internetPenetration": 96,
+    "englishProficiency": 65,
+    "digitalAdoption": 93,
+    "smbWithoutWebsite": 22,
+    "avgWebsiteCostLocal": {
+      "min": 5000,
+      "max": 20000,
+      "currency": "CHF"
+    },
+    "ourPricing": {
+      "basic": 2999,
+      "standard": 7499,
+      "premium": 11999,
+      "currency": "CHF"
+    },
+    "languages": [
+      {
+        "name": "German",
+        "code": "de"
+      },
+      {
+        "name": "French",
+        "code": "fr"
+      },
+      {
+        "name": "Italian",
+        "code": "it"
+      }
+    ],
+    "timezone": "Europe/Zurich",
+    "callingCode": "+41",
+    "salesTip": "Highest local dev costs in Europe. Your pricing is 90% cheaper. Offer multilingual sites (DE/FR/IT)."
+  },
+  {
+    "id": "at",
+    "name": "Austria",
+    "code": "AT",
+    "region": "Europe",
+    "gdpPerCapita": 53638,
+    "internetPenetration": 93,
+    "englishProficiency": 65,
+    "digitalAdoption": 88,
+    "smbWithoutWebsite": 30,
+    "avgWebsiteCostLocal": {
+      "min": 2500,
+      "max": 8000,
+      "currency": "EUR"
+    },
+    "ourPricing": {
+      "basic": 1499,
+      "standard": 3149,
+      "premium": 4799,
+      "currency": "EUR"
+    },
+    "languages": [
+      {
+        "name": "German",
+        "code": "de"
+      }
+    ],
+    "timezone": "Europe/Vienna",
+    "callingCode": "+43",
+    "salesTip": "Strong tourism sector. Hotels, restaurants, and ski resorts need multilingual websites."
+  },
+  {
+    "id": "pt",
+    "name": "Portugal",
+    "code": "PT",
+    "region": "Europe",
+    "gdpPerCapita": 24563,
+    "internetPenetration": 85,
+    "englishProficiency": 55,
+    "digitalAdoption": 78,
+    "smbWithoutWebsite": 45,
+    "avgWebsiteCostLocal": {
+      "min": 1200,
+      "max": 5000,
+      "currency": "EUR"
+    },
+    "ourPricing": {
+      "basic": 699,
+      "standard": 1849,
+      "premium": 2999,
+      "currency": "EUR"
+    },
+    "languages": [
+      {
+        "name": "Portuguese",
+        "code": "pt"
+      }
+    ],
+    "timezone": "Europe/Lisbon",
+    "callingCode": "+351",
+    "salesTip": "Growing digital economy. Tourism and hospitality sectors are prime targets. Offer Portuguese language sites."
+  },
+  {
+    "id": "ie",
+    "name": "Ireland",
+    "code": "IE",
+    "region": "Europe",
+    "gdpPerCapita": 100172,
+    "internetPenetration": 92,
+    "englishProficiency": 100,
+    "digitalAdoption": 90,
+    "smbWithoutWebsite": 26,
+    "avgWebsiteCostLocal": {
+      "min": 2500,
+      "max": 8000,
+      "currency": "EUR"
+    },
+    "ourPricing": {
+      "basic": 1499,
+      "standard": 3149,
+      "premium": 4799,
+      "currency": "EUR"
+    },
+    "languages": [
+      {
+        "name": "English",
+        "code": "en"
+      }
+    ],
+    "timezone": "Europe/Dublin",
+    "callingCode": "+353",
+    "salesTip": "English-speaking, high GDP. Pubs, restaurants, and B&Bs are ideal targets. Strong ROI messaging works."
+  },
+  {
+    "id": "pl",
+    "name": "Poland",
+    "code": "PL",
+    "region": "Europe",
+    "gdpPerCapita": 17842,
+    "internetPenetration": 87,
+    "englishProficiency": 50,
+    "digitalAdoption": 78,
+    "smbWithoutWebsite": 40,
+    "avgWebsiteCostLocal": {
+      "min": 800,
+      "max": 3000,
+      "currency": "PLN"
+    },
+    "ourPricing": {
+      "basic": 499,
+      "standard": 1149,
+      "premium": 1799,
+      "currency": "PLN"
+    },
+    "languages": [
+      {
+        "name": "Polish",
+        "code": "pl"
+      }
+    ],
+    "timezone": "Europe/Warsaw",
+    "callingCode": "+48",
+    "salesTip": "Growing economy with many SMBs going digital. Competitive pricing needed as local devs are also affordable."
+  },
+  {
+    "id": "au",
+    "name": "Australia",
+    "code": "AU",
+    "region": "Asia-Pacific",
+    "gdpPerCapita": 64491,
+    "internetPenetration": 96,
+    "englishProficiency": 100,
+    "digitalAdoption": 95,
+    "smbWithoutWebsite": 24,
+    "avgWebsiteCostLocal": {
+      "min": 3000,
+      "max": 12000,
+      "currency": "AUD"
+    },
+    "ourPricing": {
+      "basic": 1799,
+      "standard": 4499,
+      "premium": 7199,
+      "currency": "AUD"
+    },
+    "languages": [
+      {
+        "name": "English",
+        "code": "en"
+      }
+    ],
+    "timezone": "Australia/Sydney",
+    "callingCode": "+61",
+    "salesTip": "English-speaking, high prices for local devs. Timezone overlap with India is decent. Healthcare and trades are ideal."
+  },
+  {
+    "id": "nz",
+    "name": "New Zealand",
+    "code": "NZ",
+    "region": "Asia-Pacific",
+    "gdpPerCapita": 48781,
+    "internetPenetration": 95,
+    "englishProficiency": 100,
+    "digitalAdoption": 93,
+    "smbWithoutWebsite": 28,
+    "avgWebsiteCostLocal": {
+      "min": 2500,
+      "max": 8000,
+      "currency": "NZD"
+    },
+    "ourPricing": {
+      "basic": 1499,
+      "standard": 3149,
+      "premium": 4799,
+      "currency": "NZD"
+    },
+    "languages": [
+      {
+        "name": "English",
+        "code": "en"
+      }
+    ],
+    "timezone": "Pacific/Auckland",
+    "callingCode": "+64",
+    "salesTip": "Small market but English-speaking and high-value. Trades and agriculture businesses are underserved."
+  },
+  {
+    "id": "jp",
+    "name": "Japan",
+    "code": "JP",
+    "region": "Asia-Pacific",
+    "gdpPerCapita": 33815,
+    "internetPenetration": 93,
+    "englishProficiency": 20,
+    "digitalAdoption": 85,
+    "smbWithoutWebsite": 35,
+    "avgWebsiteCostLocal": {
+      "min": 3000,
+      "max": 15000,
+      "currency": "JPY"
+    },
+    "ourPricing": {
+      "basic": 1799,
+      "standard": 5399,
+      "premium": 8999,
+      "currency": "JPY"
+    },
+    "languages": [
+      {
+        "name": "Japanese",
+        "code": "ja"
+      }
+    ],
+    "timezone": "Asia/Tokyo",
+    "callingCode": "+81",
+    "salesTip": "Language barrier is significant. Many Japanese SMBs have outdated websites. Partner with a Japanese speaker if possible."
+  },
+  {
+    "id": "kr",
+    "name": "South Korea",
+    "code": "KR",
+    "region": "Asia-Pacific",
+    "gdpPerCapita": 32423,
+    "internetPenetration": 97,
+    "englishProficiency": 35,
+    "digitalAdoption": 95,
+    "smbWithoutWebsite": 25,
+    "avgWebsiteCostLocal": {
+      "min": 2000,
+      "max": 8000,
+      "currency": "KRW"
+    },
+    "ourPricing": {
+      "basic": 1199,
+      "standard": 2999,
+      "premium": 4799,
+      "currency": "KRW"
+    },
+    "languages": [
+      {
+        "name": "Korean",
+        "code": "ko"
+      }
+    ],
+    "timezone": "Asia/Seoul",
+    "callingCode": "+82",
+    "salesTip": "Highly digital society. Many use Naver over Google. Focus on mobile-first design."
+  },
+  {
+    "id": "sg",
+    "name": "Singapore",
+    "code": "SG",
+    "region": "Asia-Pacific",
+    "gdpPerCapita": 72794,
+    "internetPenetration": 96,
+    "englishProficiency": 90,
+    "digitalAdoption": 96,
+    "smbWithoutWebsite": 22,
+    "avgWebsiteCostLocal": {
+      "min": 2500,
+      "max": 10000,
+      "currency": "SGD"
+    },
+    "ourPricing": {
+      "basic": 1499,
+      "standard": 3749,
+      "premium": 5999,
+      "currency": "SGD"
+    },
+    "languages": [
+      {
+        "name": "English",
+        "code": "en"
+      },
+      {
+        "name": "Chinese",
+        "code": "zh"
+      },
+      {
+        "name": "Malay",
+        "code": "ms"
+      }
+    ],
+    "timezone": "Asia/Singapore",
+    "callingCode": "+65",
+    "salesTip": "English-speaking, high GDP. F&B and retail are prime targets. Government grants available for digitalization."
+  },
+  {
+    "id": "my",
+    "name": "Malaysia",
+    "code": "MY",
+    "region": "Asia-Pacific",
+    "gdpPerCapita": 12364,
+    "internetPenetration": 89,
+    "englishProficiency": 65,
+    "digitalAdoption": 80,
+    "smbWithoutWebsite": 45,
+    "avgWebsiteCostLocal": {
+      "min": 500,
+      "max": 2500,
+      "currency": "MYR"
+    },
+    "ourPricing": {
+      "basic": 299,
+      "standard": 899,
+      "premium": 1499,
+      "currency": "MYR"
+    },
+    "languages": [
+      {
+        "name": "Malay",
+        "code": "ms"
+      },
+      {
+        "name": "English",
+        "code": "en"
+      }
+    ],
+    "timezone": "Asia/Kuala_Lumpur",
+    "callingCode": "+60",
+    "salesTip": "Growing digital economy. Many SMBs rely on WhatsApp only. Pitch website + WhatsApp integration."
+  },
+  {
+    "id": "th",
+    "name": "Thailand",
+    "code": "TH",
+    "region": "Asia-Pacific",
+    "gdpPerCapita": 7066,
+    "internetPenetration": 78,
+    "englishProficiency": 30,
+    "digitalAdoption": 72,
+    "smbWithoutWebsite": 55,
+    "avgWebsiteCostLocal": {
+      "min": 400,
+      "max": 2000,
+      "currency": "THB"
+    },
+    "ourPricing": {
+      "basic": 249,
+      "standard": 699,
+      "premium": 1199,
+      "currency": "THB"
+    },
+    "languages": [
+      {
+        "name": "Thai",
+        "code": "th"
+      }
+    ],
+    "timezone": "Asia/Bangkok",
+    "callingCode": "+66",
+    "salesTip": "Tourism powerhouse. Hotels, restaurants, massage parlors need bilingual (Thai/English) websites badly."
+  },
+  {
+    "id": "ph",
+    "name": "Philippines",
+    "code": "PH",
+    "region": "Asia-Pacific",
+    "gdpPerCapita": 3623,
+    "internetPenetration": 73,
+    "englishProficiency": 80,
+    "digitalAdoption": 68,
+    "smbWithoutWebsite": 60,
+    "avgWebsiteCostLocal": {
+      "min": 300,
+      "max": 1500,
+      "currency": "PHP"
+    },
+    "ourPricing": {
+      "basic": 199,
+      "standard": 549,
+      "premium": 899,
+      "currency": "PHP"
+    },
+    "languages": [
+      {
+        "name": "Filipino",
+        "code": "tl"
+      },
+      {
+        "name": "English",
+        "code": "en"
+      }
+    ],
+    "timezone": "Asia/Manila",
+    "callingCode": "+63",
+    "salesTip": "English-speaking and digitally active. BPO industry means businesses understand outsourcing value."
+  },
+  {
+    "id": "id",
+    "name": "Indonesia",
+    "code": "ID",
+    "region": "Asia-Pacific",
+    "gdpPerCapita": 4691,
+    "internetPenetration": 73,
+    "englishProficiency": 25,
+    "digitalAdoption": 65,
+    "smbWithoutWebsite": 65,
+    "avgWebsiteCostLocal": {
+      "min": 300,
+      "max": 1500,
+      "currency": "IDR"
+    },
+    "ourPricing": {
+      "basic": 199,
+      "standard": 549,
+      "premium": 899,
+      "currency": "IDR"
+    },
+    "languages": [
+      {
+        "name": "Indonesian",
+        "code": "id"
+      }
+    ],
+    "timezone": "Asia/Jakarta",
+    "callingCode": "+62",
+    "salesTip": "Massive population, rapidly growing internet adoption. Focus on tourism (Bali) and Jakarta metro area."
+  },
+  {
+    "id": "ae",
+    "name": "UAE",
+    "code": "AE",
+    "region": "Middle East",
+    "gdpPerCapita": 49451,
+    "internetPenetration": 99,
+    "englishProficiency": 75,
+    "digitalAdoption": 95,
+    "smbWithoutWebsite": 20,
+    "avgWebsiteCostLocal": {
+      "min": 3000,
+      "max": 15000,
+      "currency": "AED"
+    },
+    "ourPricing": {
+      "basic": 1799,
+      "standard": 5399,
+      "premium": 8999,
+      "currency": "AED"
+    },
+    "languages": [
+      {
+        "name": "Arabic",
+        "code": "ar"
+      },
+      {
+        "name": "English",
+        "code": "en"
+      }
+    ],
+    "timezone": "Asia/Dubai",
+    "callingCode": "+971",
+    "salesTip": "Luxury market. Businesses expect premium design. Arabic RTL support is a major differentiator. Indian community is huge."
+  },
+  {
+    "id": "sa",
+    "name": "Saudi Arabia",
+    "code": "SA",
+    "region": "Middle East",
+    "gdpPerCapita": 27608,
+    "internetPenetration": 98,
+    "englishProficiency": 45,
+    "digitalAdoption": 88,
+    "smbWithoutWebsite": 35,
+    "avgWebsiteCostLocal": {
+      "min": 2500,
+      "max": 12000,
+      "currency": "SAR"
+    },
+    "ourPricing": {
+      "basic": 1499,
+      "standard": 4349,
+      "premium": 7199,
+      "currency": "SAR"
+    },
+    "languages": [
+      {
+        "name": "Arabic",
+        "code": "ar"
+      }
+    ],
+    "timezone": "Asia/Riyadh",
+    "callingCode": "+966",
+    "salesTip": "Vision 2030 driving digital transformation. Government pushing SMBs online. Arabic RTL essential."
+  },
+  {
+    "id": "qa",
+    "name": "Qatar",
+    "code": "QA",
+    "region": "Middle East",
+    "gdpPerCapita": 83891,
+    "internetPenetration": 99,
+    "englishProficiency": 60,
+    "digitalAdoption": 92,
+    "smbWithoutWebsite": 25,
+    "avgWebsiteCostLocal": {
+      "min": 3000,
+      "max": 15000,
+      "currency": "QAR"
+    },
+    "ourPricing": {
+      "basic": 1799,
+      "standard": 5399,
+      "premium": 8999,
+      "currency": "QAR"
+    },
+    "languages": [
+      {
+        "name": "Arabic",
+        "code": "ar"
+      },
+      {
+        "name": "English",
+        "code": "en"
+      }
+    ],
+    "timezone": "Asia/Qatar",
+    "callingCode": "+974",
+    "salesTip": "Post World Cup digital boom. High-spending population. Premium design expected."
+  },
+  {
+    "id": "kw",
+    "name": "Kuwait",
+    "code": "KW",
+    "region": "Middle East",
+    "gdpPerCapita": 38125,
+    "internetPenetration": 98,
+    "englishProficiency": 50,
+    "digitalAdoption": 88,
+    "smbWithoutWebsite": 30,
+    "avgWebsiteCostLocal": {
+      "min": 2000,
+      "max": 8000,
+      "currency": "KWD"
+    },
+    "ourPricing": {
+      "basic": 1199,
+      "standard": 2999,
+      "premium": 4799,
+      "currency": "KWD"
+    },
+    "languages": [
+      {
+        "name": "Arabic",
+        "code": "ar"
+      }
+    ],
+    "timezone": "Asia/Kuwait",
+    "callingCode": "+965",
+    "salesTip": "Young, digital-savvy population. E-commerce growing rapidly. Bilingual (AR/EN) sites are standard."
+  },
+  {
+    "id": "bh",
+    "name": "Bahrain",
+    "code": "BH",
+    "region": "Middle East",
+    "gdpPerCapita": 29103,
+    "internetPenetration": 99,
+    "englishProficiency": 65,
+    "digitalAdoption": 90,
+    "smbWithoutWebsite": 28,
+    "avgWebsiteCostLocal": {
+      "min": 1500,
+      "max": 6000,
+      "currency": "BHD"
+    },
+    "ourPricing": {
+      "basic": 899,
+      "standard": 2249,
+      "premium": 3599,
+      "currency": "BHD"
+    },
+    "languages": [
+      {
+        "name": "Arabic",
+        "code": "ar"
+      },
+      {
+        "name": "English",
+        "code": "en"
+      }
+    ],
+    "timezone": "Asia/Bahrain",
+    "callingCode": "+973",
+    "salesTip": "Financial hub. Professional services and hospitality are key sectors. English widely used in business."
+  },
+  {
+    "id": "om",
+    "name": "Oman",
+    "code": "OM",
+    "region": "Middle East",
+    "gdpPerCapita": 19509,
+    "internetPenetration": 95,
+    "englishProficiency": 45,
+    "digitalAdoption": 82,
+    "smbWithoutWebsite": 40,
+    "avgWebsiteCostLocal": {
+      "min": 1200,
+      "max": 5000,
+      "currency": "OMR"
+    },
+    "ourPricing": {
+      "basic": 699,
+      "standard": 1849,
+      "premium": 2999,
+      "currency": "OMR"
+    },
+    "languages": [
+      {
+        "name": "Arabic",
+        "code": "ar"
+      }
+    ],
+    "timezone": "Asia/Muscat",
+    "callingCode": "+968",
+    "salesTip": "Tourism growing. Indian community is significant — good for warm introductions."
+  },
+  {
+    "id": "za",
+    "name": "South Africa",
+    "code": "ZA",
+    "region": "Africa",
+    "gdpPerCapita": 6776,
+    "internetPenetration": 72,
+    "englishProficiency": 80,
+    "digitalAdoption": 68,
+    "smbWithoutWebsite": 55,
+    "avgWebsiteCostLocal": {
+      "min": 500,
+      "max": 3000,
+      "currency": "ZAR"
+    },
+    "ourPricing": {
+      "basic": 299,
+      "standard": 1049,
+      "premium": 1799,
+      "currency": "ZAR"
+    },
+    "languages": [
+      {
+        "name": "English",
+        "code": "en"
+      },
+      {
+        "name": "Afrikaans",
+        "code": "af"
+      }
+    ],
+    "timezone": "Africa/Johannesburg",
+    "callingCode": "+27",
+    "salesTip": "English-speaking with high website demand. Indian diaspora provides warm leads. Focus on Johannesburg and Cape Town."
+  },
+  {
+    "id": "ng",
+    "name": "Nigeria",
+    "code": "NG",
+    "region": "Africa",
+    "gdpPerCapita": 2184,
+    "internetPenetration": 55,
+    "englishProficiency": 75,
+    "digitalAdoption": 52,
+    "smbWithoutWebsite": 75,
+    "avgWebsiteCostLocal": {
+      "min": 200,
+      "max": 1000,
+      "currency": "NGN"
+    },
+    "ourPricing": {
+      "basic": 99,
+      "standard": 349,
+      "premium": 599,
+      "currency": "NGN"
+    },
+    "languages": [
+      {
+        "name": "English",
+        "code": "en"
+      }
+    ],
+    "timezone": "Africa/Lagos",
+    "callingCode": "+234",
+    "salesTip": "Largest African economy. Digital adoption surging. Very price-sensitive — keep costs low."
+  },
+  {
+    "id": "ke",
+    "name": "Kenya",
+    "code": "KE",
+    "region": "Africa",
+    "gdpPerCapita": 2099,
+    "internetPenetration": 42,
+    "englishProficiency": 70,
+    "digitalAdoption": 55,
+    "smbWithoutWebsite": 72,
+    "avgWebsiteCostLocal": {
+      "min": 200,
+      "max": 800,
+      "currency": "KES"
+    },
+    "ourPricing": {
+      "basic": 99,
+      "standard": 299,
+      "premium": 499,
+      "currency": "KES"
+    },
+    "languages": [
+      {
+        "name": "English",
+        "code": "en"
+      },
+      {
+        "name": "Swahili",
+        "code": "sw"
+      }
+    ],
+    "timezone": "Africa/Nairobi",
+    "callingCode": "+254",
+    "salesTip": "Tech hub of East Africa. M-Pesa integration is a huge selling point. Mobile-first design essential."
+  },
+  {
+    "id": "eg",
+    "name": "Egypt",
+    "code": "EG",
+    "region": "Africa",
+    "gdpPerCapita": 3699,
+    "internetPenetration": 72,
+    "englishProficiency": 35,
+    "digitalAdoption": 60,
+    "smbWithoutWebsite": 60,
+    "avgWebsiteCostLocal": {
+      "min": 300,
+      "max": 1500,
+      "currency": "EGP"
+    },
+    "ourPricing": {
+      "basic": 199,
+      "standard": 549,
+      "premium": 899,
+      "currency": "EGP"
+    },
+    "languages": [
+      {
+        "name": "Arabic",
+        "code": "ar"
+      }
+    ],
+    "timezone": "Africa/Cairo",
+    "callingCode": "+20",
+    "salesTip": "Tourism-dependent economy. Hotels, tour operators, and restaurants need bilingual (AR/EN) websites."
+  },
+  {
+    "id": "br",
+    "name": "Brazil",
+    "code": "BR",
+    "region": "South America",
+    "gdpPerCapita": 8917,
+    "internetPenetration": 81,
+    "englishProficiency": 20,
+    "digitalAdoption": 72,
+    "smbWithoutWebsite": 55,
+    "avgWebsiteCostLocal": {
+      "min": 600,
+      "max": 3000,
+      "currency": "BRL"
+    },
+    "ourPricing": {
+      "basic": 349,
+      "standard": 1099,
+      "premium": 1799,
+      "currency": "BRL"
+    },
+    "languages": [
+      {
+        "name": "Portuguese",
+        "code": "pt"
+      }
+    ],
+    "timezone": "America/Sao_Paulo",
+    "callingCode": "+55",
+    "salesTip": "Largest LATAM economy. Instagram-heavy businesses. Offer website + social media integration. Portuguese essential."
+  },
+  {
+    "id": "ar",
+    "name": "Argentina",
+    "code": "AR",
+    "region": "South America",
+    "gdpPerCapita": 13686,
+    "internetPenetration": 87,
+    "englishProficiency": 35,
+    "digitalAdoption": 75,
+    "smbWithoutWebsite": 45,
+    "avgWebsiteCostLocal": {
+      "min": 400,
+      "max": 2000,
+      "currency": "ARS"
+    },
+    "ourPricing": {
+      "basic": 249,
+      "standard": 699,
+      "premium": 1199,
+      "currency": "ARS"
+    },
+    "languages": [
+      {
+        "name": "Spanish",
+        "code": "es"
+      }
+    ],
+    "timezone": "America/Buenos_Aires",
+    "callingCode": "+54",
+    "salesTip": "Economic volatility means businesses want dollar-priced services. Position as stable, affordable USD pricing."
+  },
+  {
+    "id": "co",
+    "name": "Colombia",
+    "code": "CO",
+    "region": "South America",
+    "gdpPerCapita": 6104,
+    "internetPenetration": 73,
+    "englishProficiency": 25,
+    "digitalAdoption": 65,
+    "smbWithoutWebsite": 58,
+    "avgWebsiteCostLocal": {
+      "min": 300,
+      "max": 1500,
+      "currency": "COP"
+    },
+    "ourPricing": {
+      "basic": 199,
+      "standard": 549,
+      "premium": 899,
+      "currency": "COP"
+    },
+    "languages": [
+      {
+        "name": "Spanish",
+        "code": "es"
+      }
+    ],
+    "timezone": "America/Bogota",
+    "callingCode": "+57",
+    "salesTip": "Growing tech ecosystem. Tourism in Cartagena and Medellín creates demand for hospitality websites."
+  },
+  {
+    "id": "cl",
+    "name": "Chile",
+    "code": "CL",
+    "region": "South America",
+    "gdpPerCapita": 16265,
+    "internetPenetration": 92,
+    "englishProficiency": 35,
+    "digitalAdoption": 80,
+    "smbWithoutWebsite": 38,
+    "avgWebsiteCostLocal": {
+      "min": 500,
+      "max": 2500,
+      "currency": "CLP"
+    },
+    "ourPricing": {
+      "basic": 299,
+      "standard": 899,
+      "premium": 1499,
+      "currency": "CLP"
+    },
+    "languages": [
+      {
+        "name": "Spanish",
+        "code": "es"
+      }
+    ],
+    "timezone": "America/Santiago",
+    "callingCode": "+56",
+    "salesTip": "Most digitally advanced in LATAM. Higher expectations for design quality. Wine tourism sector is prime."
+  }
+]

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeadForge Pro — International Lead Generation & Website Sales Platform</title>
+    <meta name="description" content="Find businesses without websites worldwide. Generate stunning demos, sales scripts, and close deals with LeadForge Pro.">
+    <meta property="og:title" content="LeadForge Pro — Lead Generation Platform">
+    <meta property="og:description" content="Find, pitch, and convert businesses that need websites. 30+ domains, 40+ countries.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- PDF Generation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+
+    <!-- API Key Modal -->
+    <div id="apiKeyModal" class="modal-overlay">
+        <div class="modal">
+            <div class="modal-icon">🔑</div>
+            <h2>Setup Your API Key</h2>
+            <p class="modal-desc">Enter your SerpApi key to start finding real business leads worldwide without a credit card. <br><a href="https://serpapi.com/users/sign_up" target="_blank" class="link">Get your free API key →</a></p>
+            <div class="modal-steps">
+                <div class="step">
+                    <span class="step-num">1</span>
+                    <span>Go to <a href="https://serpapi.com/users/sign_up" target="_blank" class="link">SerpApi.com</a> and sign up for free</span>
+                </div>
+                <div class="step">
+                    <span class="step-num">2</span>
+                    <span>Confirm your email address</span>
+                </div>
+                <div class="step">
+                    <span class="step-num">3</span>
+                    <span>Copy your API Key from the dashboard</span>
+                </div>
+            </div>
+            <div class="input-group">
+                <input type="text" id="apiKeyInput" placeholder="Enter your SerpApi Key..." class="input-field" autocomplete="off">
+                <button id="saveApiKey" class="btn btn-primary btn-glow">
+                    <span>Launch LeadForge</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Application -->
+    <div id="app" class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-left">
+                <div class="logo" onclick="location.reload()" style="cursor: pointer;" title="Reset App">
+                    <div class="logo-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="url(#logoGrad)" stroke-width="2.5" stroke-linecap="round">
+                            <defs><linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#818cf8"/><stop offset="100%" stop-color="#c084fc"/></linearGradient></defs>
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </div>
+                    <span class="logo-text">LeadForge<span class="logo-pro">Pro</span></span>
+                </div>
+            </div>
+            <nav class="nav">
+                <button class="nav-btn active" data-tab="leads">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                    <span>Lead Finder</span>
+                </button>
+                <button class="nav-btn" data-tab="priority">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10M18 20V4M6 20v-4"/></svg>
+                    <span>Priority Matrix</span>
+                </button>
+                <button class="nav-btn" data-tab="scripts">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
+                    <span>Scripts</span>
+                </button>
+                <button class="nav-btn" data-tab="settings">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.73 12.73 1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+                    <span>Settings</span>
+                </button>
+            </nav>
+            <div class="header-right" style="display: flex; gap: 16px; align-items: center;">
+                <button id="themeToggle" class="btn btn-secondary btn-sm" onclick="App.toggleTheme()" style="padding: 6px; border-radius: 50%;">
+                    <svg id="themeIconDark" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    <svg id="themeIconLight" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                </button>
+                <div class="api-status" id="searchesLeftBadge" style="display: none; background: rgba(129, 140, 248, 0.1); border-color: rgba(129, 140, 248, 0.3); color: #818cf8;">
+                    <span style="font-size: 13px; font-weight: 600;"><span id="searchesLeftCount">...</span> Searches Left</span>
+                </div>
+                <div class="api-status" id="apiStatus">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Demo Mode</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Tab: Lead Finder -->
+        <section id="tab-leads" class="tab-content active">
+            <!-- Search Panel -->
+            <div class="search-panel">
+                <div class="search-header">
+                    <h1>Find Businesses Without Websites</h1>
+                    <p>Search across 30+ domains and 40+ countries to find your next client</p>
+                </div>
+                <div class="search-form">
+                    <div class="search-row">
+                        <div class="select-group">
+                            <label>Business Domain</label>
+                            <select id="domainSelect" class="select-field">
+                                <option value="">Select a domain...</option>
+                            </select>
+                        </div>
+                        <div class="select-group">
+                            <label>Country</label>
+                            <select id="countrySelect" class="select-field">
+                                <option value="">Select a country...</option>
+                            </select>
+                        </div>
+                        <div class="select-group">
+                            <label>City (Optional)</label>
+                            <input type="text" id="cityInput" class="input-field" placeholder="e.g., Miami, London...">
+                        </div>
+                    </div>
+                    <div class="search-actions">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="noWebsiteOnly" checked>
+                            <span class="checkmark"></span>
+                            Only show businesses WITHOUT websites
+                        </label>
+                        <button id="searchBtn" class="btn btn-primary btn-glow btn-lg">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                            <span>Search Leads</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results -->
+            <div id="resultsSection" class="results-section hidden">
+                <div class="results-header">
+                    <div class="results-stats">
+                        <h2 id="resultsTitle">Results</h2>
+                        <div class="results-badges">
+                            <span class="badge badge-total" id="totalCount">0 found</span>
+                            <span class="badge badge-leads" id="leadsCount">0 leads</span>
+                        </div>
+                    </div>
+                    <div class="results-actions">
+                        <button id="exportCsv" class="btn btn-secondary btn-sm">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                            Export CSV
+                        </button>
+                    </div>
+                </div>
+                <div id="resultsGrid" class="results-grid">
+                    <!-- Lead cards injected here -->
+                </div>
+                <div id="loadingMore" class="loading-more hidden">
+                    <div class="spinner"></div>
+                    <span>Loading more results...</span>
+                </div>
+            </div>
+
+            <!-- Empty State -->
+            <div id="emptyState" class="empty-state">
+                <div class="empty-icon">🎯</div>
+                <h3>Ready to Find Leads</h3>
+                <p>Select a business domain and country above to start discovering businesses that need your web development services.</p>
+                <div class="empty-stats">
+                    <div class="stat-card">
+                        <span class="stat-num">30+</span>
+                        <span class="stat-label">Domains</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num">40+</span>
+                        <span class="stat-label">Countries</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num">∞</span>
+                        <span class="stat-label">Opportunities</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tab: Priority Matrix -->
+        <section id="tab-priority" class="tab-content">
+            <div class="section-header">
+                <h1>Priority Matrix</h1>
+                <p>Data-driven ranking of which domain × country combinations have the highest conversion potential</p>
+            </div>
+            <div class="priority-controls">
+                <div class="filter-group">
+                    <label>Filter by Region</label>
+                    <select id="priorityRegion" class="select-field select-sm">
+                        <option value="">All Regions</option>
+                        <option value="North America">North America</option>
+                        <option value="Europe">Europe</option>
+                        <option value="Asia-Pacific">Asia-Pacific</option>
+                        <option value="Middle East">Middle East</option>
+                        <option value="Africa">Africa</option>
+                        <option value="South America">South America</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Filter by Category</label>
+                    <select id="priorityCategory" class="select-field select-sm">
+                        <option value="">All Categories</option>
+                        <option value="Home Services">Home Services</option>
+                        <option value="Food & Hospitality">Food & Hospitality</option>
+                        <option value="Health & Wellness">Health & Wellness</option>
+                        <option value="Professional Services">Professional Services</option>
+                        <option value="Retail & Auto">Retail & Auto</option>
+                        <option value="Construction">Construction</option>
+                        <option value="Creative Services">Creative Services</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Sort By</label>
+                    <select id="prioritySort" class="select-field select-sm">
+                        <option value="score">Overall Score</option>
+                        <option value="opportunity">Opportunity (No Website %)</option>
+                        <option value="gdp">GDP per Capita</option>
+                        <option value="savings">Price Savings vs Local</option>
+                        <option value="english">English Proficiency</option>
+                    </select>
+                </div>
+            </div>
+            <div id="priorityTable" class="priority-table-wrapper">
+                <!-- Table injected by JS -->
+            </div>
+            <div class="pricing-comparison" id="pricingComparison">
+                <h2>💰 Pricing Strategy: India Advantage</h2>
+                <p class="pricing-subtitle">Your pricing vs local developers — show clients they're getting premium quality at a fraction of the cost</p>
+                <div id="pricingGrid" class="pricing-grid">
+                    <!-- Pricing cards injected by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Tab: Scripts -->
+        <section id="tab-scripts" class="tab-content">
+            <div class="section-header">
+                <h1>Sales Script Generator</h1>
+                <p>Generate personalized, bilingual sales scripts for any lead</p>
+            </div>
+            <div class="script-builder">
+                <div class="script-config">
+                    <div class="config-row">
+                        <div class="select-group">
+                            <label>Business Domain</label>
+                            <select id="scriptDomain" class="select-field">
+                                <option value="">Select domain...</option>
+                            </select>
+                        </div>
+                        <div class="select-group">
+                            <label>Country</label>
+                            <select id="scriptCountry" class="select-field">
+                                <option value="">Select country...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="config-row">
+                        <div class="input-group-inline">
+                            <label>Business Name</label>
+                            <input type="text" id="scriptBizName" class="input-field" placeholder="e.g., Mike's Plumbing">
+                        </div>
+                        <div class="input-group-inline">
+                            <label>City</label>
+                            <input type="text" id="scriptCity" class="input-field" placeholder="e.g., Miami">
+                        </div>
+                        <div class="input-group-inline">
+                            <label>Rating (if known)</label>
+                            <input type="number" id="scriptRating" class="input-field" placeholder="4.5" min="1" max="5" step="0.1">
+                        </div>
+                    </div>
+                    <button id="generateScript" class="btn btn-primary btn-glow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg>
+                        Generate Script
+                    </button>
+                </div>
+                <div id="scriptOutput" class="script-output hidden">
+                    <div class="script-tabs">
+                        <button class="script-tab active" data-lang="en">🇬🇧 English</button>
+                        <button class="script-tab" data-lang="native">🌐 Native Language</button>
+                    </div>
+                    <div id="scriptContent" class="script-content">
+                        <!-- Script injected here -->
+                    </div>
+                    <div class="script-actions">
+                        <button id="copyScript" class="btn btn-secondary">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                            Copy to Clipboard
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tab: Settings -->
+        <section id="tab-settings" class="tab-content">
+            <div class="section-header">
+                <h1>Settings</h1>
+                <p>Configure your API keys and preferences</p>
+            </div>
+            <div class="settings-grid">
+                <div class="settings-card">
+                    <div class="settings-card-header">
+                        <h3>🔑 Google Places API Key</h3>
+                        <span class="badge" id="apiKeyBadge">Not Set</span>
+                    </div>
+                    <p>Required for live lead search. Get $200/month free credit.</p>
+                    <div class="input-group">
+                        <input type="text" id="settingsApiKey" class="input-field" placeholder="AIzaSy...">
+                        <button id="updateApiKey" class="btn btn-primary">Save Key</button>
+                    </div>
+                    <div class="api-info">
+                        <h4>Free Tier Limits (~$200/month credit):</h4>
+                        <ul>
+                            <li>~6,250 text searches/month</li>
+                            <li>~11,764 place detail requests/month</li>
+                            <li>~28,571 photo requests/month</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="settings-card">
+                    <div class="settings-card-header">
+                        <h3>🌐 Translation</h3>
+                        <span class="badge badge-active">Free — No Key Needed</span>
+                    </div>
+                    <p>Sales scripts are auto-translated using MyMemory API (free, 5000 words/day).</p>
+                    <div class="api-info">
+                        <h4>Supported Languages:</h4>
+                        <p>All 40+ country languages including Spanish, French, German, Arabic, Japanese, Korean, Portuguese, and more.</p>
+                    </div>
+                </div>
+                <div class="settings-card" style="grid-column: 1/-1;">
+                    <div class="settings-card-header">
+                        <h3>💾 Saved Leads</h3>
+                        <span class="badge" id="savedLeadsCount">0 saved</span>
+                    </div>
+                    <p>Your contacted and saved leads are stored locally in your browser.</p>
+                    <div class="settings-actions">
+                        <button id="exportAllLeads" class="btn btn-secondary btn-sm">Export All Leads</button>
+                        <button id="clearAllLeads" class="btn btn-danger btn-sm">Clear All Data</button>
+                    </div>
+                    <div id="savedLeadsList" style="margin-top: 24px; display: grid; gap: 12px;">
+                        <!-- Saved leads injected here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Script/Demo Modal -->
+    <div id="leadModal" class="modal-overlay">
+        <div class="modal modal-lg">
+            <button class="modal-close" id="closeModal">✕</button>
+            <div id="modalContent">
+                <!-- Dynamic content -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <!-- Scripts -->
+    <script src="js/currency.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/demo-generator.js"></script>
+    <script src="js/script-engine.js"></script>
+    <script src="js/lead-finder.js"></script>
+    <script src="js/priority-matrix.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

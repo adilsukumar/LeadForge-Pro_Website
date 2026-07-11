@@ -93,6 +93,6 @@ To run the app locally on your own machine without Vercel:
    ```
 3. Start the local Node.js proxy server:
    ```bash
-   node server.js
+   node local-server.js
    ```
 4. Open `http://localhost:3847` in your browser.
